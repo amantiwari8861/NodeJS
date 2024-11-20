@@ -1,112 +1,173 @@
 [
-    {
-        "id": 100,
-        "name": "Aman Tiwari",
-        "phone": 8448179216,
-        "skills": ["MEAN", "MERN", "Java FSD", "etc"],
-        "address": {
-            "city": "Noida",
-            "pincode": 201301,
-            "street": "Sector 62 Noida"
-        }
-    },
-    {
-        "id": 101,
-        "name": "Priya Sharma",
-        "phone": 9876543210,
-        "skills": ["Python", "Data Science", "AI", "Machine Learning"],
-        "address": {
-            "city": "Mumbai",
-            "pincode": 400001,
-            "street": "Marine Lines"
-        }
-    },
-    {
-        "id": 102,
-        "name": "Rohan Gupta",
-        "phone": 9123456789,
-        "skills": ["DevOps", "AWS", "Kubernetes", "Docker"],
-        "address": {
-            "city": "Bangalore",
-            "pincode": 560100,
-            "street": "Electronic City"
-        }
-    },
-    {
-        "id": 103,
-        "name": "Sneha Verma",
-        "phone": 9988776655,
-        "skills": ["Frontend Development", "Angular", "React", "Vue.js"],
-        "address": {
-            "city": "Hyderabad",
-            "pincode": 500081,
-            "street": "Hitech City"
-        }
-    },
-    {
-        "id": 104,
-        "name": "Vikram Singh",
-        "phone": 9098765432,
-        "skills": ["Java", "Spring Boot", "Hibernate", "Microservices"],
-        "address": {
-            "city": "Pune",
-            "pincode": 411057,
-            "street": "Wakad"
-        }
-    },
-    {
-        "id": 105,
-        "name": "Ananya Mukherjee",
-        "phone": 9765432180,
-        "skills": ["Cybersecurity", "Network Security", "Ethical Hacking"],
-        "address": {
-            "city": "Kolkata",
-            "pincode": 700001,
-            "street": "Park Street"
-        }
-    },
-    {
-        "id": 106,
-        "name": "Arjun Desai",
-        "phone": 8543217890,
-        "skills": ["Blockchain", "Solidity", "Cryptography"],
-        "address": {
-            "city": "Ahmedabad",
-            "pincode": 380015,
-            "street": "Satellite Road"
-        }
-    },
-    {
-        "id": 107,
-        "name": "Meera Iyer",
-        "phone": 7896541230,
-        "skills": ["Mobile Development", "Flutter", "React Native"],
-        "address": {
-            "city": "Chennai",
-            "pincode": 600018,
-            "street": "T Nagar"
-        }
-    },
-    {
-        "id": 108,
-        "name": "Kunal Mishra",
-        "phone": 7418529630,
-        "skills": ["Big Data", "Hadoop", "Spark", "Kafka"],
-        "address": {
-            "city": "Lucknow",
-            "pincode": 226010,
-            "street": "Gomti Nagar"
-        }
-    },
-    {
-        "id": 109,
-        "name": "Pooja Patel",
-        "phone": 9873216540,
-        "skills": ["Testing", "Manual Testing", "Automation Testing"],
-        "address": {
-            "city": "Surat",
-            "pincode": 395007,
-            "street": "Ring Road"
-        }
+  {
+    "id": 100,
+    "name": "Aman Tiwari",
+    "phone": 8448179216,
+    "skills": [
+      "MEAN",
+      "MERN",
+      "Java FSD",
+      "etc"
+    ],
+    "address": {
+      "city": "Noida",
+      "pincode": 201301,
+      "street": "Sector 62 Noida"
     }
+  },
+  {
+    "id": 101,
+    "name": "Priya Sharma",
+    "phone": 9876543210,
+    "skills": [
+      "Python",
+      "Data Science",
+      "AI",
+      "Machine Learning"
+    ],
+    "address": {
+      "city": "Mumbai",
+      "pincode": 400001,
+      "street": "Marine Lines"
+    }
+  },
+  {
+    "id": 102,
+    "name": "Rohan Gupta",
+    "phone": 9123456789,
+    "skills": [
+      "DevOps",
+      "AWS",
+      "Kubernetes",
+      "Docker"
+    ],
+    "address": {
+      "city": "Bangalore",
+      "pincode": 560100,
+      "street": "Electronic City"
+    }
+  },
+  {
+    "id": 103,
+    "name": "Sneha Verma",
+    "phone": 9988776655,
+    "skills": [
+      "Frontend Development",
+      "Angular",
+      "React",
+      "Vue.js"
+    ],
+    "address": {
+      "city": "Hyderabad",
+      "pincode": 500081,
+      "street": "Hitech City"
+    }
+  },
+  {
+    "id": 104,
+    "name": "Vikram Singh",
+    "phone": 9098765432,
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "Hibernate",
+      "Microservices"
+    ],
+    "address": {
+      "city": "Pune",
+      "pincode": 411057,
+      "street": "Wakad"
+    }
+  },
+  {
+    "id": 105,
+    "name": "Ananya Mukherjee",
+    "phone": 9765432180,
+    "skills": [
+      "Cybersecurity",
+      "Network Security",
+      "Ethical Hacking"
+    ],
+    "address": {
+      "city": "Kolkata",
+      "pincode": 700001,
+      "street": "Park Street"
+    }
+  },
+  {
+    "id": 106,
+    "name": "Arjun Desai",
+    "phone": 8543217890,
+    "skills": [
+      "Blockchain",
+      "Solidity",
+      "Cryptography"
+    ],
+    "address": {
+      "city": "Ahmedabad",
+      "pincode": 380015,
+      "street": "Satellite Road"
+    }
+  },
+  {
+    "id": 107,
+    "name": "Meera Iyer",
+    "phone": 7896541230,
+    "skills": [
+      "Mobile Development",
+      "Flutter",
+      "React Native"
+    ],
+    "address": {
+      "city": "Chennai",
+      "pincode": 600018,
+      "street": "T Nagar"
+    }
+  },
+  {
+    "id": 108,
+    "name": "Kunal Mishra",
+    "phone": 7418529630,
+    "skills": [
+      "Big Data",
+      "Hadoop",
+      "Spark",
+      "Kafka"
+    ],
+    "address": {
+      "city": "Lucknow",
+      "pincode": 226010,
+      "street": "Gomti Nagar"
+    }
+  },
+  {
+    "id": 109,
+    "name": "Pooja Patel",
+    "phone": 9873216540,
+    "skills": [
+      "Testing",
+      "Manual Testing",
+      "Automation Testing"
+    ],
+    "address": {
+      "city": "Surat",
+      "pincode": 395007,
+      "street": "Ring Road"
+    }
+  },
+  {
+    "id": 110,
+    "name": "Aryan Dhankhar",
+    "phone": 1322432452,
+    "skills": [
+      "MERN",
+      "Java FSD",
+      "etc"
+    ],
+    "address": {
+      "city": "Gurugram",
+      "pincode": 122001,
+      "street": "Sector 14 Gurugram"
+    }
+  }
 ]
