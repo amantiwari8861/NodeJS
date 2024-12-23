@@ -11,6 +11,7 @@
   "license": "MIT",
   "description": "",
   "dependencies": {
+    "myqrcode": "file:",
     "qrcode": "^1.5.4"
   }
 }

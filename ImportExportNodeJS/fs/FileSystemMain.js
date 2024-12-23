@@ -100,15 +100,15 @@ const fs = require('fs');
 //     console.log(`Is Directory: ${stats.isDirectory()}`);
 // });
 
-const fspromise = require('fs/promises');
+// const fspromise = require('fs/promises');
 
-async function readFile() {
-   try {
-       const data = await fspromise.readFile('fs/users.json', 'utf8');
-       console.log(data);
-   } catch (err) {
-       console.error(err);
-   }
-}
+// async function readFile() {
+//    try {
+//        const data = await fspromise.readFile('fs/users.json', 'utf8');
+//        console.log(data);
+//    } catch (err) {
+//        console.error(err);
+//    }
+// }
 
-readFile();
+// readFile();
