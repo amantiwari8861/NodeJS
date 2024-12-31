@@ -1,6 +1,7 @@
 let http = require("http");
 
 const PORT = 8080, HOST = "localhost";
+let retrying=false;
 let server = http.createServer((req, res) => {
     res.writeHead(200, { 'Content-Type': 'application/json' });
     res.end(JSON.stringify({
@@ -12,13 +13,18 @@ server.listen(PORT,HOST,() => {
 });
 
 server.on('error', (e) => {
-    if (e.code === 'EADDRINUSE') {
+    if (e.code === 'EADDRINUSE' && !retrying) {
         console.error('Address in use, retrying...');
         setTimeout(() => {
             server.close();
             server.listen(PORT, HOST,() => {
                 console.log(`Server is listening on http://${HOST}:${PORT}`);
+                retrying=true;
             });
-        }, 10000);
+        }, 3000);
+    }
+    else
+    {
+        console.log("Server error:",e.code);
     }
 });
